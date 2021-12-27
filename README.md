@@ -7,7 +7,7 @@ Instructions:
 
 1. Backup your 3dConnexion TopSolid profile.
 2. Backup your TopSolid Settings by navagating to Tools> Manage Settings>Export Application Settings.
-3. Import New TopSolid Settings by navagating to Tools> Manage Settings>Import Application Settings.
+3. Import Settings.TopSet by navagating to Tools> Manage Settings>Import Application Settings.
 4. Close Topsolid
 5. Navigate to C:\ProgramData\3Dconnexion\3DxWare\Cfg and place the Topsolid.xml and the images directory (with contents) there.
 6. Start TopSolid
