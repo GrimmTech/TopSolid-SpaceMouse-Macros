@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<AppCfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Default="true" CfgFormatVersion="1.3" ThisFileVersion="1.0">
+  <AppInfo>
+    <Signature>
+      <Name>TopSolid</Name>
+      <ExecutableName>TopSolid.exe</ExecutableName>
+    </Signature>
+  </AppInfo>
+  <CfgProperties>
+    <ID>ID_TopSolid</ID>
+    <Name>TopSolid</Name>
+    <InheritsFromID>ID_Default_S80_Cfg</InheritsFromID>
+  </CfgProperties>
+  <Settings>
+    <OverallScale>0.26</OverallScale>
+  </Settings>
+  <AuthorInfo>
+    <DriverVersion>17.8.4.19035</DriverVersion>
+    <LastChange>
+      <Tool>3DxSmartUI.exe</Tool>
+      <Version>1.2.21341.19032</Version>
+      <Date>12/11/2021 11:19:46 PM UTC</Date>
+      <User>Adam</User>
+    </LastChange>
+    <Created>
+      <Tool>3DxService.exe</Tool>
+      <Version>17.8.4.19035</Version>
+      <Date>2021:12:6:11:22:21:37:445</Date>
+      <User>Adam</User>
+    </Created>
+  </AuthorInfo>
+  <MacroTable>
+    <MacroEntry>
+      <ID>Left View</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>F</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Right View</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Back View</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Front View</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>9</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Bottom View</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Top View</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>17</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Normal To View</ID>
+      <KeyStroke>
+        <Key>11</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>ISO1</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Circle</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>1F</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Sketch Chamfer</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>1E</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Contour</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>20</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Sketch Fillet</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>21</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Line</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>22</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Point</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>23</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Text</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>24</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Trim</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>25</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Wire Text</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>26</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Constraint</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>14</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Revolve Dimension</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>1A</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Arc</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>8</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Elipse</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>1C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Elliptical Arc</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>18</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Rectangle</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Spline</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>A</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Alignment</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>1E</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Centering</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>1E</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Coincident</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>20</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Concentricity</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>21</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Equality</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>22</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Fixed</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>23</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Intersection</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>24</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Orientation</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>25</Key>
+      </KeyStroke>
+    </MacroEntry>
+	<MacroEntry>
+      <ID>Parallelism</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>26</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Symmetry</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>14</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Perpendicularity</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>27</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Tangency</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>1A</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Offset</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>8</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Project</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Sketch Repetition</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>17</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Symmetric</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>1C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Thickened</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>18</Key>
+      </KeyStroke>
+    </MacroEntry>
+	<MacroEntry>
+      <ID>Boss</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Draft</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>12</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Extruded Faces</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Repetition</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Threading</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>16</Key>
+      </KeyStroke>
+    </MacroEntry>
+	<MacroEntry>
+      <ID>Boolean</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Chamfer</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>9</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Drilling Group</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>A</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Drilling</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>B</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Fillet</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>F</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Groove or Shoulder</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Pipe</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>11</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Pocket</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>14</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Reciprocal Trim</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>1A</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Knurling</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>D</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Slot Or Tongue</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>19</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Tapping</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+	<MacroEntry>
+      <ID>Revolved</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>8</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Trim By Profile</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Shape Trim</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>17</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Analyze Geometry</ID>
+      <KeyStroke>
+        <Key>3B</Key>
+      </KeyStroke>
+    </MacroEntry>
+  </MacroTable>
+  <ButtonActions xmlns:driver_images="./images/3DxService/"  xmlns:ts_images="./images/TopSolid/">
+    <ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Top View</ID>
+      <Name>Top View</Name>
+      <Image>
+        <Source>[driver_images:V3DK_TOP.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Right View</ID>
+      <Name>Right View</Name>
+      <Image>
+        <Source>[driver_images:V3DK_RIGHT.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Left View</ID>
+      <Name>Left View</Name>
+      <Image>
+        <Source>[driver_images:V3DK_LEFT.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Front View</ID>
+      <Name>Front View</Name>
+      <Image>
+        <Source>[driver_images:V3DK_FRONT.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Bottom View</ID>
+      <Name>Bottom View</Name>
+      <Image>
+        <Source>[driver_images:V3DK_BOTTOM.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Back View</ID>
+      <Name>Back View</Name>
+      <Image>
+        <Source>[driver_images:V3DK_BACK.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>ISO1</ID>
+      <Name>ISO1</Name>
+      <Image>
+        <Source>[driver_images:V3DK_ISO1.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Normal To View</ID>
+      <Name>Normal To View</Name>
+      <Image>
+        <Source>[driver_images:V3DCMD_VIEW_QZ_IN.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Sketch Chamfer</ID>
+      <Name>Sketch Chamfer</Name>
+      <Image>
+        <Source>[ts_images:SketchChamferIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Circle</ID>
+      <Name>Circle</Name>
+      <Image>
+        <Source>[ts_images:CircleIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Contour</ID>
+      <Name>Contour</Name>
+      <Image>
+        <Source>[ts_images:ContourIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Sketch Fillet</ID>
+      <Name>Sketch Fillet</Name>
+      <Image>
+        <Source>[ts_images:SketchFilletIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Line</ID>
+      <Name>Line</Name>
+      <Image>
+        <Source>[ts_images:LineIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Point</ID>
+      <Name>Point</Name>
+      <Image>
+        <Source>[ts_images:PointIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Text</ID>
+      <Name>Text</Name>
+      <Image>
+        <Source>[ts_images:TextIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Wire Text</ID>
+      <Name>Wire Text</Name>
+      <Image>
+        <Source>[ts_images:WireTextIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Constraint</ID>
+      <Name>Constraint</Name>
+      <Image>
+        <Source>[ts_images:ConstraintIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Revolve Dimension</ID>
+      <Name>Revolve Dimension</Name>
+      <Image>
+        <Source>[ts_images:RevolutionDimensionIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Arc</ID>
+      <Name>Arc</Name>
+      <Image>
+        <Source>[ts_images:ArcIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Trim</ID>
+      <Name>Trim</Name>
+      <Image>
+        <Source>[ts_images:TrimIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Elipse</ID>
+      <Name>Elipse</Name>
+      <Image>
+        <Source>[ts_images:EllipseIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Elliptical Arc</ID>
+      <Name>Elliptical Arc</Name>
+      <Image>
+        <Source>[ts_images:EllipseArcIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Rectangle</ID>
+      <Name>Rectangle</Name>
+      <Image>
+        <Source>[ts_images:RectangleIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Spline</ID>
+      <Name>Spline</Name>
+      <Image>
+        <Source>[ts_images:BSplineIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Alignment</ID>
+      <Name>Alignment</Name>
+      <Image>
+        <Source>[ts_images:AlignmentTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Centering</ID>
+      <Name>Centering</Name>
+      <Image>
+        <Source>[ts_images:CenteringIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Coincident</ID>
+      <Name>Coincident</Name>
+      <Image>
+        <Source>[ts_images:CoincidenceIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Concentricity</ID>
+      <Name>Concentricity</Name>
+      <Image>
+        <Source>[ts_images:ConcentricityIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Equality</ID>
+      <Name>Equality Dimension</Name>
+      <Image>
+        <Source>[ts_images:EqualityIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Fixed</ID>
+      <Name>Fixed</Name>
+      <Image>
+        <Source>[ts_images:FixIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Intersection</ID>
+      <Name>Intersection</Name>
+      <Image>
+        <Source>[ts_images:IntersectionIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Orientation</ID>
+      <Name>Orientation</Name>
+      <Image>
+        <Source>[ts_images:OrientationIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Parallelism</ID>
+      <Name>Parallelism</Name>
+      <Image>
+        <Source>[ts_images:ParallelismIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Perpendicularity</ID>
+      <Name>Perpendicularity</Name>
+      <Image>
+        <Source>[ts_images:PerpendicularityIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Symmetry</ID>
+      <Name>Symmetry</Name>
+      <Image>
+        <Source>[ts_images:SymmetryIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Tangency</ID>
+      <Name>Tangency</Name>
+      <Image>
+        <Source>[ts_images:TangencyIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Offset</ID>
+      <Name>Offset</Name>
+      <Image>
+        <Source>[ts_images:OffsetIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Project</ID>
+      <Name>Project</Name>
+      <Image>
+        <Source>[ts_images:ProjectIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Sketch Repetition</ID>
+      <Name>Sketch Repetition</Name>
+      <Image>
+        <Source>[ts_images:SketchRepetitionIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Symmetric</ID>
+      <Name>Symmetric</Name>
+      <Image>
+        <Source>[ts_images:SymmetricIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Thickened</ID>
+      <Name>Thickened</Name>
+      <Image>
+        <Source>[ts_images:ThickenedOperationIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Boss</ID>
+      <Name>Boss</Name>
+      <Image>
+        <Source>[ts_images:BossIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Draft</ID>
+      <Name>Draft</Name>
+      <Image>
+        <Source>[ts_images:DraftIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Extruded Faces</ID>
+      <Name>Extruded Faces</Name>
+      <Image>
+        <Source>[ts_images:ExtrudedFacesIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Repetition</ID>
+      <Name>Repetition</Name>
+      <Image>
+        <Source>[ts_images:RepetitionIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Threading</ID>
+      <Name>Threading</Name>
+      <Image>
+        <Source>[ts_images:threadingicotrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Boolean</ID>
+      <Name>Boolean</Name>
+      <Image>
+        <Source>[ts_images:BooleanIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Chamfer</ID>
+      <Name>Chamfer</Name>
+      <Image>
+        <Source>[ts_images:ChamferIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Drilling Group</ID>
+      <Name>Drilling Group</Name>
+      <Image>
+        <Source>[ts_images:drillinggroupicotrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Drilling</ID>
+      <Name>Drilling</Name>
+      <Image>
+        <Source>[ts_images:DrillingIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Knurling</ID>
+      <Name>Knurling</Name>
+      <Image>
+        <Source>[ts_images:KnurlingCommand.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Extruded</ID>
+      <Name>Extruded</Name>
+      <Image>
+        <Source>[ts_images:ExtrudedIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Fillet</ID>
+      <Name>Fillet</Name>
+      <Image>
+        <Source>[ts_images:FilletIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Groove or Shoulder</ID>
+      <Name>Groove or Shoulder</Name>
+      <Image>
+        <Source>[ts_images:GrooveShouldericotrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Slot Or Tongue</ID>
+      <Name>Slot Or Tongue</Name>
+      <Image>
+        <Source>[ts_images:slottongue.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Tapping</ID>
+      <Name>Tapping</Name>
+      <Image>
+        <Source>[ts_images:Tappingicotrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Pipe</ID>
+      <Name>Pipe</Name>
+      <Image>
+        <Source>[ts_images:swepticotrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Pocket</ID>
+      <Name>Pocket</Name>
+      <Image>
+        <Source>[ts_images:PocketIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Reciprocal Trim</ID>
+      <Name>Reciprocal Trim</Name>
+      <Image>
+        <Source>[ts_images:ReciprocalTrimIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Revolved</ID>
+      <Name>Revolved</Name>
+      <Image>
+        <Source>[ts_images:RevolvedIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Trim By Profile</ID>
+      <Name>Trim By Profile</Name>
+      <Image>
+        <Source>[ts_images:TrimByProfileIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Shape Trim</ID>
+      <Name>Shape Trim</Name>
+      <Image>
+        <Source>[ts_images:ShapeTrimIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+	<ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
+      <ID>Analyze Geometry</ID>
+      <Name>Analyze Geometry</Name>
+      <Image>
+        <Source>[ts_images:AnalyzeCommandIcoTrsp.png]</Source>
+      </Image>
+    </ButtonAction>
+  </ButtonActions>
+  <Devices>
+    <Device>
+      <ID>ID_ProductID_C633</ID>
+      <ButtonBank Default="true">
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <ID>Default</ID>
+        <Button>
+          <Input>
+            <ActionID>LongPressButton_5</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Left View</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_5</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Right View</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>LongPressButton_6</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Back View</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_6</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Front View</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>LongPressButton_3</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Bottom View</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_3</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Top View</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_11</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Normal To View</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>LongPressButton_11</ActionID>
+          </Input>
+          <Output>
+            <ActionID>ISO1</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_14</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Elliptical Arc</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_13</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Elipse</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_15</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Rectangle</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_16</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Spline</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_17</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Alignment</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_18</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Centering</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_19</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Coincident</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_20</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Concentricity</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_21</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Equality</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_22</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Fixed</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_77</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Intersection</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_78</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Orientation</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+    </Device>
+  </Devices>
+  <UI>
+    <ButtonFlyouts>
+      <Category Sort="false">
+        <ID>AppCommand</ID>
+        <Name>TopSolid</Name>
+		<ButtonAction><ID>Top View</ID></ButtonAction>
+		<ButtonAction><ID>Right View</ID></ButtonAction>
+		<ButtonAction><ID>Left View</ID></ButtonAction>
+		<ButtonAction><ID>Front View</ID></ButtonAction>
+		<ButtonAction><ID>Bottom View</ID></ButtonAction>
+		<ButtonAction><ID>Back View</ID></ButtonAction>
+		<ButtonAction><ID>ISO1</ID></ButtonAction>
+		<ButtonAction><ID>Normal To View</ID></ButtonAction>
+        <ButtonAction><ID>Sketch Chamfer</ID></ButtonAction>
+		<ButtonAction><ID>Circle</ID></ButtonAction>
+		<ButtonAction><ID>Contour</ID></ButtonAction>
+		<ButtonAction><ID>Sketch Fillet</ID></ButtonAction>
+		<ButtonAction><ID>Line</ID></ButtonAction>
+		<ButtonAction><ID>Point</ID></ButtonAction>
+		<ButtonAction><ID>Text</ID></ButtonAction>
+		<ButtonAction><ID>Wire Text</ID></ButtonAction>
+		<ButtonAction><ID>Constraint</ID></ButtonAction>
+		<ButtonAction><ID>Revolve Dimension</ID></ButtonAction>
+		<ButtonAction><ID>Arc</ID></ButtonAction>
+		<ButtonAction><ID>Trim</ID></ButtonAction>
+		<ButtonAction><ID>Elipse</ID></ButtonAction>
+		<ButtonAction><ID>Elliptical Arc</ID></ButtonAction>
+		<ButtonAction><ID>Rectangle</ID></ButtonAction>
+		<ButtonAction><ID>Spline</ID></ButtonAction>
+		<ButtonAction><ID>Alignment</ID></ButtonAction>
+		<ButtonAction><ID>Centering</ID></ButtonAction>
+		<ButtonAction><ID>Coincident</ID></ButtonAction>
+		<ButtonAction><ID>Concentricity</ID></ButtonAction>
+		<ButtonAction><ID>Equality</ID></ButtonAction>
+		<ButtonAction><ID>Fixed</ID></ButtonAction>
+		<ButtonAction><ID>Intersection</ID></ButtonAction>
+		<ButtonAction><ID>Orientation</ID></ButtonAction>
+		<ButtonAction><ID>Parallelism</ID></ButtonAction>
+		<ButtonAction><ID>Perpendicularity</ID></ButtonAction>
+		<ButtonAction><ID>Symmetry</ID></ButtonAction>
+		<ButtonAction><ID>Tangency</ID></ButtonAction>
+		<ButtonAction><ID>Offset</ID></ButtonAction>
+		<ButtonAction><ID>Project</ID></ButtonAction>
+		<ButtonAction><ID>Sketch Repetition</ID></ButtonAction>
+		<ButtonAction><ID>Symmetric</ID></ButtonAction>
+		<ButtonAction><ID>Thickened</ID></ButtonAction>
+		<ButtonAction><ID>Boss</ID></ButtonAction>
+		<ButtonAction><ID>Draft</ID></ButtonAction>
+		<ButtonAction><ID>Extruded Faces</ID></ButtonAction>
+		<ButtonAction><ID>Repetition</ID></ButtonAction>
+		<ButtonAction><ID>Threading</ID></ButtonAction>
+		<ButtonAction><ID>Boolean</ID></ButtonAction>
+		<ButtonAction><ID>Chamfer</ID></ButtonAction>
+		<ButtonAction><ID>Drilling Group</ID></ButtonAction>
+		<ButtonAction><ID>Drilling</ID></ButtonAction>
+		<ButtonAction><ID>Knurling</ID></ButtonAction>
+		<ButtonAction><ID>Extruded</ID></ButtonAction>
+		<ButtonAction><ID>Fillet</ID></ButtonAction>
+		<ButtonAction><ID>Groove or Shoulder</ID></ButtonAction>
+		<ButtonAction><ID>Slot Or Tongue</ID></ButtonAction>
+		<ButtonAction><ID>Tapping</ID></ButtonAction>
+		<ButtonAction><ID>Pipe</ID></ButtonAction>
+		<ButtonAction><ID>Pocket</ID></ButtonAction>
+		<ButtonAction><ID>Reciprocal Trim</ID></ButtonAction>
+		<ButtonAction><ID>Revolved</ID></ButtonAction>
+		<ButtonAction><ID>Trim By Profile</ID></ButtonAction>
+		<ButtonAction><ID>Shape Trim</ID></ButtonAction>
+		<ButtonAction><ID>Analysis</ID></ButtonAction>
+      </Category>
+    </ButtonFlyouts>
+  </UI>
+
+</AppCfg>
