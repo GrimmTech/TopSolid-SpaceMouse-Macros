@@ -6,8 +6,8 @@ This Project was created to improve the 3dconnexion SpaceMouse while using TopSo
 Instructions:
 
 1. Backup your 3dConnexion TopSolid profile.
-2. Backup your TopSolid Settings by navagating to Tools> Manage Settings>Export Application Settings.
-3. Import Settings.TopSet by navagating to Tools> Manage Settings>Import Application Settings.
+2. Backup your TopSolid Settings by navigating to Tools> Manage Settings>Export Application Settings.
+3. Import Settings.TopSet by navigating to Tools> Manage Settings>Import Application Settings.
 4. Close Topsolid
 5. Navigate to C:\ProgramData\3Dconnexion\3DxWare\Cfg and place the Topsolid.xml and the images directory (with contents) there.
 6. Start TopSolid
@@ -17,7 +17,7 @@ Instructions:
 
 Creating your own custom Macros and Icons.
 
-1. Within TopSolid Naviagte to Tools>Customize and create a macro (shortcut). For example the Pocket command is mapped to Shift+Alt+Q.
+1. Within TopSolid Navigate to Tools>Customize and create a macro (shortcut). For example the Pocket command is mapped to Shift+Alt+Q.
 2. Within the 3dconnexion GUI create the same macro.
 3. Open the TopSolid.xml within AppData\Roaming\3Dconnexion\3DxWare\Cfg You will have some code that looks similar to the code below:
 
