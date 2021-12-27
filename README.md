@@ -20,7 +20,7 @@ Creating your own custom Macros and Icons.
 1. Within TopSolid Navigate to Tools>Customize and create a macro (shortcut). For example the Pocket command is mapped to Shift+Alt+Q.
 2. Within the 3dconnexion GUI create the same macro.
 3. Open the TopSolid.xml within AppData\Roaming\3Dconnexion\3DxWare\Cfg You will have some code that looks similar to the code below:
-
+//
     <MacroEntry>
       <ID>Pocket</ID>
       <KeyStroke>
@@ -31,12 +31,12 @@ Creating your own custom Macros and Icons.
         <Key>14</Key>
       </KeyStroke>
     </MacroEntry>
-    
+  //  
 Copy that code and place it under the other macro entries in the C:\ProgramData\3Dconnexion\3DxWare\Cfg TopSolid.xml
 
 4. To link an icon with the above macro you will need to crop a 24x24 or 48x48 .png image of the command and place the image into the C:\ProgramData\3Dconnexion\3DxWare\Cfg\images\TopSolid folder.
 Then you will need to modify the code below to link to your new image and macro. Do so by changing the ID, Name and image source.
-
+//
     <ButtonAction Type="Macro" xsi:type="ButtonAction_Macro">
       <ID>Pocket</ID>
       <Name>Pocket</Name>
@@ -44,5 +44,5 @@ Then you will need to modify the code below to link to your new image and macro.
         <Source>[ts_images:PocketIcoTrsp.png]</Source>
       </Image>
     </ButtonAction>
-    
+//    
  Place the modified code into the C:\ProgramData\3Dconnexion\3DxWare\Cfg TopSolid.xml under the ButtonAction section.
