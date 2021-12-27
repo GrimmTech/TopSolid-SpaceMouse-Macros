@@ -1,0 +1,80 @@
+TopSolid Macros
+
+Views:
+Back Camera: Ctrl+Shift+P     (posterior)
+Bottom Camera: Ctrl+Shift+A   (Ass)
+Front Camera: Ctrl+Shift+F
+Isometric Camera: Ctrl+Shift+i
+Left Camera: Ctrl+Shift+L
+Right Camera: Ctrl+Shift+R
+Top Camera: Ctrl+Shift+T
+Normal To View: N
+
+2D Sketch:
+Sketch Chamfer: Ctrl+Shift+1
+Circle: Ctrl+Shift+2
+Contour: Ctrl+Shift+3
+Fillet: Ctrl+Shift+4
+Line: Ctrl+Shift+5
+Point: Ctrl+Shift+6
+Text: Ctrl+Shift+7
+Trim: Ctrl+Shift+8
+Wire Text: Ctrl+Shift+9
+Constraint: Ctrl+Shift+Q
+Revolve Dimension: Ctrl+Shift+W
+
+2D Sketch Other Curves
+Arc: Ctrl+Shift+E
+Elipse: Ctrl+Shift+Y
+Elliptical Arc: Ctrl+Shift+U
+Rectangle: Ctrl+Shift+D
+Spline: Ctrl+Shift+G
+
+
+2D Sketch Constraints - Relations
+Alignment: Ctrl+Alt+1
+Centering: Ctrl+Alt+2
+Coincident: Ctrl+Alt+3
+Concentricity: Ctrl+Alt+4
+Equality: Ctrl+Alt+5
+Fixed: Ctrl+Alt+6
+Intersection: Ctrl+Alt+7
+Orientation: Ctrl+Alt+8
+Parallelism: Ctrl+Alt+9
+Perpendicularity: Ctrl+Alt+0
+Symmetry: Ctrl+Alt+Q
+Tangency: Ctrl+Alt+W
+
+2D Sketch Other Modifications
+Offset: Ctrl+Alt+E
+Project: Ctrl+Alt+R
+Sketch Repetition: Ctrl+Alt+T
+Symmetric: Ctrl+Alt+Y
+Thickened: Ctrl+Alt+U
+
+Shape Commands
+Boss: Ctrl+Alt+I
+Draft: Ctrl+Alt+O
+Extruded Faces: Ctrl+Alt+P
+Repetition: Ctrl+Alt+A
+Threading: Ctrl+Alt+S
+
+Modeling - Local Shapes
+Boolean: Ctrl+Alt+D
+Chamfer: Ctrl+Alt+F
+Drilling Group: Ctrl+Alt+G
+Drilling: Ctrl+Alt+H
+Knurling: Ctrl+Alt+J
+Extruded: Ctrl+Alt+K
+Fillet: Ctrl+Alt+L
+Groove or Shoulder: Ctrl+Alt+C
+Slot Or Tongue: Ctrl+Alt+V
+Tapping: Ctrl+Alt+B
+Pipe: Ctrl+Alt+N
+Pocket: Shift+Alt+Q
+Reciprocal Trim: Shift+Alt+W
+Revolved: Shift+Alt+E
+Trim By Profile: Shift+Alt+R
+Shape Trim: Shift+Alt+T
+Analysis: F2
+
