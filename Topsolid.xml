@@ -283,7 +283,7 @@
           <Modifier>Control</Modifier>
           <Modifier>Alt</Modifier>
         </Modifiers>
-        <Key>1E</Key>
+        <Key>1F</Key>
       </KeyStroke>
     </MacroEntry>
     <MacroEntry>
@@ -639,7 +639,7 @@
     <MacroEntry>
       <ID>Analyze Geometry</ID>
       <KeyStroke>
-        <Key>3B</Key>
+        <Key>42</Key>
       </KeyStroke>
     </MacroEntry>
   </MacroTable>
